@@ -1,7 +1,4 @@
-n = int(input())
-
-for i in range(1,10):  # 1~9
-    print(n, '*', i, '=', n*i)
-
-
-
+num=int(input())
+for i in range(9):
+    print( num, '*', i+1, '=', num*(i+1))
+    
