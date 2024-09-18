@@ -1,6 +1,5 @@
 N=int(input())
-a='int'
-for i in range(N//4):
-    a="long "+a
-    
-print(a)
+
+long= N//4
+
+print('long '*long+'int')
